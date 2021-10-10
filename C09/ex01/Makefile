@@ -19,7 +19,7 @@ SRCS = $(addprefix $(PATH_SRC), $(SRC))
 PATH_HEAD = ./includes/
 HEAD = ft.h
 HEADS = $(addprefix $(PATH_HEAD), $(HEAD))
-FLAGS = -Wall -Wextra -Werror)
+FLAGS = -Wall -Wextra -Werror
 OBJS = $(SRCS:.c=.o)
 NAME = libft.a
 
